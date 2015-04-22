@@ -30,7 +30,6 @@ nav {
 
 .background {
 	background-image: url("../images/hands_up.jpg");
-	/*background-repeat: no-repeat;*/
 }
 
 @font-face
@@ -103,6 +102,10 @@ a {
 
 .blue-background {
 	background-color: #8EA9CA;
+}
+
+.white-backgroud {
+	background-color: white;
 }
 
 .no-border-long {
@@ -211,6 +214,5 @@ footer {
 }
 
 .last-section {
-	background-color: white;
 	padding-top: 100px;
 }
