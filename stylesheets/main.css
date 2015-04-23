@@ -2,11 +2,12 @@
 	margin: 0px auto;
 	width: 1400px;
 	text-align: left;
+	background-color: #7BA0C1;
 }
 
 .title {
 	background-color: white;
-	height: 50px;
+	height: 60px;
 }
 
 body {
@@ -14,14 +15,26 @@ body {
 }
 
 .logo {
-	width: 30px;
-	height: 30px;
-	padding-top: 10px;
+	float: left;
+	height: 50px;
+	padding-top: 5px;
 	margin-right: 10px;
+	margin-left: 250px;
 }
 
 nav {
-	display: inline;
+	position: absolute;
+	margin-left: 320px;
+	border-left: 1px solid #EAE7E2;
+	border-right: 1px solid #EAE7E2;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+ul>li:last-child {
+	padding-right: 20px;
 }
 
 .center {
@@ -62,19 +75,7 @@ h2 {
 	padding-top: 100px;
 }
 
-header ul {
-	display: inline;
-	border-left: 1px solid #E1DFDA;
-	border-right: 1px solid #E1DFDA;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	padding-top: 25px;
-	padding-bottom: 6px;
-}
-
-header ul li {
+li {
 	display: inline;
 	padding-left: 20px;
 }
@@ -89,7 +90,11 @@ a {
 }
 
 .small-button {
+	float: right;
 	width: 80px;
+	height: 20px;
+	margin-right: 250px;
+	margin-top: 20px;
 }
 
 .green-background {
@@ -135,8 +140,6 @@ button.green {
 button.blue {
 	background-color: #E8BB62;
 }
-
-button.
 
 section>button {
 	border-radius: 3px;
