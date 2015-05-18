@@ -1,0 +1,221 @@
+#main {
+	margin: 0px auto;
+	width: 1400px;
+	text-align: left;
+	background-color: #7BA0C1;
+}
+
+.title {
+	background-color: white;
+	height: 60px;
+}
+
+body {
+	padding-top: 40px;
+}
+
+.logo {
+	float: left;
+	height: 50px;
+	padding-top: 5px;
+	margin-right: 10px;
+	margin-left: 250px;
+}
+
+nav {
+	position: absolute;
+	margin-left: 320px;
+	border-left: 1px solid #EAE7E2;
+	border-right: 1px solid #EAE7E2;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+ul>li:last-child {
+	padding-right: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.background {
+	background-image: url("../images/hands_up.jpg");
+}
+
+@font-face
+{
+	font-family: Sunday;
+	src: url('fonts/Sunday-Regular.ttf');
+}
+
+h2 {
+	font-family: Sunday;
+	width: inherit;
+	font-size: 40px;
+	color: #FFFFFF;
+	margin: 0px;
+}
+
+.big-section {
+	height: 300px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 200px;
+}
+
+.small-section {
+	height: 400px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 100px;
+}
+
+li {
+	display: inline;
+	padding-left: 20px;
+}
+
+li a {
+	font-size: 20px;
+}
+
+a {
+	color: black;
+	text-decoration:none
+}
+
+.small-button {
+	float: right;
+	width: 80px;
+	height: 20px;
+	margin-right: 250px;
+	margin-top: 20px;
+}
+
+.green-background {
+	background-color: #93CFB2;
+}
+
+.yellow-background {
+	background-color: #FECC6A;
+}
+
+.blue-background {
+	background-color: #8EA9CA;
+}
+
+.white-backgroud {
+	background-color: white;
+}
+
+.no-border-long {
+	border: 0px;
+	width: 150px;
+	height: 35px;
+}
+
+.long {
+	width: 110px;
+	height: 25px;
+	font-family: Sunday;
+	font-size: 9px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: white;
+}
+
+button.yellow {
+	background-color: #FECC6A;
+}
+
+button.green {
+	background-color: #7EBF9A;
+}
+
+button.blue {
+	background-color: #E8BB62;
+}
+
+section>button {
+	border-radius: 3px;
+}
+
+button.transparent {
+	border: 1px solid gray;
+	background-color: transparent;
+	margin-right: 40px;
+}
+
+button.transbox {
+	color: white;
+	border: 0px;
+	opacity: 0.4;
+}
+
+section>h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+li>p:first-child {
+	font-family: Sunday;
+	font-size: 50px;
+}
+
+li>p:last-child {
+	font-size: 15px;
+}
+
+section>ul>li {
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px solid #E1DFDA;
+	padding: 13px;
+	display: inline-block;
+	margin-bottom: 50px;
+	height: 250px;
+	width: 250px;
+}
+
+.box {
+	width:10px;
+	height:10px;
+	margin:0 auto;
+	border-radius:50px;
+	margin-bottom: 5px;
+}
+
+.circle-image {
+	float: left;
+	background-color: transparent;
+	opacity: 0.3;
+	padding-top: 30px;
+	margin-right: 100px;
+}
+
+section>p, div>p {
+	font-size: 25px;
+	color: white;
+}
+
+.trans-button {
+	background-color: rgba(0,0,0,0.2);
+	color: white;
+}
+
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.last-section {
+	padding-top: 100px;
+}
