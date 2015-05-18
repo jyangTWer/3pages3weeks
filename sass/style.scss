@@ -1,2 +1,108 @@
 @import "compass/reset";
 @import "compass/css3";
+
+@font-face
+{
+	font-family: race_flow;
+	// src: url('fonts/RaceFlow.ttf');
+	// src: url('fonts/aftermat.ttf');
+	// src: url('fonts/alsscrp.ttf');
+	src: url('fonts/Happy.ttf');
+}
+
+html {
+	font-size: 16px;
+}
+
+
+
+#main {
+	width: 70em;
+	color: white;
+	margin-left: 8em;
+	margin-top: 5em;
+	background-color: black;
+
+	h1 {
+		font-size: 4.38em;
+		text-align: center;
+		font-family: race_flow;
+	}
+
+	.nav {
+		float: left;
+		width: 68.8em;
+		margin-top: 3em;
+		text-align: center;
+		ul {
+			float: left;
+			margin-left: 7em;
+			.item {
+				float: left;
+				font-size: 1.5em;
+				font-family: race_flow;
+				border-left: 1px solid;
+				transition: background 0.2s;
+				padding-right: 1em;
+				padding-left: 1em;
+			}
+		}
+		.item:last-child {
+			border-right: 1px solid;
+		}
+		.item:hover {
+			background-color: #eeeeee;
+			color: black;
+		}
+	}
+
+	.container {
+		.stars {
+			margin-top: 8em;
+			li {
+				float: left;
+				margin-top: 2em;
+				img {
+					float: left;
+					margin-left: -5px;
+					margin-top: -5px;
+					padding-left: 3em;
+					clear: both;
+				}
+
+				img:hover {
+					margin-left: 0px;
+					margin-top: 0px;
+					margin-bottom: -5px;
+					margin-right: -5px;
+					animation: slidein 6s .2s;
+				}
+
+				.introduction {
+					float: left;
+					padding-left: 5em;
+					padding-top: 4em;
+					width: 40em;
+					animation-duration: 3s;
+					animation-name: slidein;
+					p {
+						float: left;
+						margin-top: 2.5em;
+					}
+
+					@keyframes slidein {
+						from {
+						    padding-left: 100%;
+						    width: 200%;
+						}
+
+						to {
+							padding-left: 0%;
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

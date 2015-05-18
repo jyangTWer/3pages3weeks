@@ -19,3 +19,150 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline;
 }
+
+/* line 22, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: race_flow;
+  src: url("fonts/Happy.ttf");
+}
+/* line 13, ../sass/style.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 19, ../sass/style.scss */
+#main {
+  width: 70em;
+  color: white;
+  margin-left: 8em;
+  margin-top: 5em;
+  background-color: black;
+}
+/* line 26, ../sass/style.scss */
+#main h1 {
+  font-size: 4.38em;
+  text-align: center;
+  font-family: race_flow;
+}
+/* line 32, ../sass/style.scss */
+#main .nav {
+  float: left;
+  width: 68.8em;
+  margin-top: 3em;
+  text-align: center;
+}
+/* line 37, ../sass/style.scss */
+#main .nav ul {
+  float: left;
+  margin-left: 7em;
+}
+/* line 40, ../sass/style.scss */
+#main .nav ul .item {
+  float: left;
+  font-size: 1.5em;
+  font-family: race_flow;
+  border-left: 1px solid;
+  transition: background 0.2s;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+/* line 50, ../sass/style.scss */
+#main .nav .item:last-child {
+  border-right: 1px solid;
+}
+/* line 53, ../sass/style.scss */
+#main .nav .item:hover {
+  background-color: #eeeeee;
+  color: black;
+}
+/* line 60, ../sass/style.scss */
+#main .container .stars {
+  margin-top: 8em;
+}
+/* line 62, ../sass/style.scss */
+#main .container .stars li {
+  float: left;
+  margin-top: 2em;
+}
+/* line 65, ../sass/style.scss */
+#main .container .stars li img {
+  float: left;
+  margin-left: -5px;
+  margin-top: -5px;
+  padding-left: 3em;
+  clear: both;
+}
+/* line 73, ../sass/style.scss */
+#main .container .stars li img:hover {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  margin-right: -5px;
+  animation: slidein 6s .2s;
+}
+/* line 81, ../sass/style.scss */
+#main .container .stars li .introduction {
+  float: left;
+  padding-left: 5em;
+  padding-top: 4em;
+  width: 40em;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+/* line 88, ../sass/style.scss */
+#main .container .stars li .introduction p {
+  float: left;
+  margin-top: 2.5em;
+}
+@keyframes slidein {
+  from {
+    padding-left: 100%;
+    width: 200%;
+  }
+  to {
+    padding-left: 0%;
+    width: 100%;
+  }
+}
